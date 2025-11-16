@@ -1,0 +1,5 @@
+{
+  "name": "GeoZone Rewards",
+  "description": "A mobile prototype with a globe-inspired UI that provides location-based notifications. Users can read interesting facts about places and earn rewards for their engagement.",
+  "requestFramePermissions": []
+}

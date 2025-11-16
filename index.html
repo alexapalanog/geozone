@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeoZone Rewards</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @keyframes fade-in-up {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes fade-in {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      @keyframes pop-in {
+        from { opacity: 0; transform: scale(0.9); }
+        to { opacity: 1; transform: scale(1); }
+      }
+      @keyframes ken-burns {
+        0% { transform: scale(1) translate(0, 0); }
+        100% { transform: scale(1.1) translate(-2%, -1%); }
+      }
+      @keyframes gradient-animation {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+      @keyframes wiggle {
+        0%, 100% { transform: rotate(-1deg); }
+        50% { transform: rotate(1deg); }
+      }
+      .animate-fade-in-up {
+        animation: fade-in-up 0.5s ease-out forwards;
+      }
+      .animate-fade-in {
+        animation: fade-in 0.5s ease-in forwards;
+      }
+      .animate-pop-in {
+        animation: pop-in 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+      }
+      .animate-ken-burns {
+        animation: ken-burns 20s ease-in-out infinite alternate;
+      }
+      .animate-gradient {
+        background: linear-gradient(-45deg, #e0f7fa, #b2ebf2, #80deea, #4dd0e1, #26c6da, #00bcd4, #00acc1, #0097a7, #00838f);
+        background-size: 400% 400%;
+        animation: gradient-animation 15s ease infinite;
+      }
+      .animate-wiggle {
+        animation: wiggle 0.5s ease-in-out infinite;
+      }
+
+      /* Modern Scrollbar */
+      ::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 2px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgba(0, 0,0, 0.3);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
