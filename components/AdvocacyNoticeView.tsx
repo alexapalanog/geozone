@@ -4,7 +4,7 @@ const AdvocacyNoticeView: React.FC<{ onReturn: () => void }> = ({ onReturn }) =>
   return (
     <div 
       className="h-full w-full flex flex-col items-center justify-center p-6 text-center animate-fade-in bg-cover bg-center"
-      style={{ backgroundImage: "url('https://images.unsplash.com/photo-1554147090-e1221a04a025?q=80&w=2070&auto=format&fit=crop')" }}
+      style={{ backgroundImage: "url('/components/RENDERS/1.png')" }}
     >
        <div className="absolute inset-0 bg-black/20"></div>
       <div className="relative bg-white/80 backdrop-blur-md rounded-2xl shadow-xl p-8 max-w-sm w-full animate-pop-in">

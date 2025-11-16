@@ -4,19 +4,12 @@ import { MessageSquareIcon } from './icons';
 import { locations } from '../data/locations';
 import useCurrentTime from '../hooks/useCurrentTime';
 
-const wallpapers = [
-  'https://images.unsplash.com/photo-1508615039623-a25605d2b022?q=80&w=2070&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1511300636412-01634d3b84de?q=80&w=2070&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?q=80&w=1887&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?q=80&w=1912&auto=format&fit=crop',
-];
+const wallpaper = '/components/RENDERS/wallpaper.jpg';
 
 const GlobeView: React.FC<{ onNotificationClick: (location: LocationData) => void }> = ({ onNotificationClick }) => {
   const [notification, setNotification] = useState<NotificationData | null>(null);
   const [showNotification, setShowNotification] = useState(false);
   const time = useCurrentTime();
-  
-  const wallpaper = useMemo(() => wallpapers[Math.floor(Math.random() * wallpapers.length)], []);
 
   useEffect(() => {
     // Show notification for the first location
