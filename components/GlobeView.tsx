@@ -4,7 +4,7 @@ import { MessageSquareIcon } from './icons';
 import { locations } from '../data/locations';
 import useCurrentTime from '../hooks/useCurrentTime';
 
-const wallpaper = '/components/RENDERS/wallpaper.jpg';
+const wallpaper = '/wallpaper.jpg';
 
 const GlobeView: React.FC<{ onNotificationClick: (location: LocationData) => void }> = ({ onNotificationClick }) => {
   const [notification, setNotification] = useState<NotificationData | null>(null);

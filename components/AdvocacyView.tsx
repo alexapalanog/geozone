@@ -26,7 +26,7 @@ const AdvocacyView: React.FC<{ onActionClick: () => void }> = ({ onActionClick }
         <div className="h-full w-full bg-gray-50 flex flex-col animate-fade-in overflow-y-auto">
              <div className="relative h-48 w-full flex-shrink-0">
                 <img 
-                    src="/components/RENDERS/1.png" 
+                    src="/1.png" 
                     alt="Intramuros Walls" 
                     className="w-full h-full object-cover" 
                 />
@@ -44,13 +44,13 @@ const AdvocacyView: React.FC<{ onActionClick: () => void }> = ({ onActionClick }
                     <div className="space-y-8">
                         <HistoricalSection
                             title="The Spanish Colonial Era"
-                            image="/components/RENDERS/2.png"
+                            image="/2.png"
                         >
                             Established in 1571, Intramuros was the seat of the Spanish government. Its formidable walls were built to protect the city from foreign invasions. Churches, schools, and hospitals flourished, making it the center of political, religious, and commercial life.
                         </HistoricalSection>
                         <HistoricalSection
                             title="The Scars of War"
-                            image="/components/RENDERS/3.png"
+                            image="/3.png"
                         >
                             The Battle of Manila in 1945 left Intramuros in ruins. The once-great Walled City was almost completely destroyed. Of its historic buildings, only the San Agustin Church remained standing, a solitary witness to the city's former glory.
                         </HistoricalSection>
