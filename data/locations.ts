@@ -7,7 +7,7 @@ export const locations: LocationData[] = [
     distance: 'nearby',
     factsTitle: 'The Walled City',
     factsContent: `Step back in time and explore the historic heart of Manila. Intramuros, with its cobblestone streets and centuries-old walls, is a treasure trove of Philippine history and culture.`,
-    image: '/1.png',
+    image: '/intramuros.png',
     hasReward: true,
     sections: [
       {
@@ -33,7 +33,7 @@ export const locations: LocationData[] = [
     distance: 'Manila',
     factsTitle: 'River of Life',
     factsContent: `The historic river that flows through Manila is now undergoing significant rehabilitation, transforming into a symbol of urban renewal. Ferries now cruise its waters, offering a unique perspective of the city.`,
-    image: '/3.png',
+    image: '/pasig.png',
     hasReward: false,
     sections: [
       {
@@ -54,7 +54,7 @@ export const locations: LocationData[] = [
     distance: 'Manila',
     factsTitle: `World's Oldest Chinatown`,
     factsContent: `Welcome to the world's oldest Chinatown. A vibrant district of historic streets, incredible food, and bustling markets. It's a testament to the deep-rooted Filipino-Chinese heritage.`,
-    image: '/1.png',
+    image: '/binondo.png',
     hasReward: false,
     sections: [
         {

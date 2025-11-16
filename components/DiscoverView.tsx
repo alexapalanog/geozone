@@ -21,7 +21,7 @@ const LocationCard: React.FC<{ location: LocationData, onSelect: () => void }> =
 
 
 const DiscoverView: React.FC<{ onSelectLocation: (location: LocationData) => void }> = ({ onSelectLocation }) => {
-    const discoverLocations = locations.filter(loc => loc.id !== 'intramuros');
+    const discoverLocations = locations.filter(loc => loc.id !== 'luneta-park');
     
     return (
         <div className="h-full w-full bg-gray-100 flex flex-col animate-fade-in">

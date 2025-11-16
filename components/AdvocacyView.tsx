@@ -26,7 +26,7 @@ const AdvocacyView: React.FC<{ onActionClick: () => void }> = ({ onActionClick }
         <div className="h-full w-full bg-gray-50 flex flex-col animate-fade-in overflow-y-auto">
              <div className="relative h-48 w-full flex-shrink-0">
                 <img 
-                    src="/1.png" 
+                    src="/intramuros.png" 
                     alt="Intramuros Walls" 
                     className="w-full h-full object-cover" 
                 />
